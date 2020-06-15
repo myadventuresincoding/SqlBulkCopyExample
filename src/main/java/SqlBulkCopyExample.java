@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class SqlBulkCopyExample {
 
-    private static String JDBC_URL = "jdbc:sqlserver://localhost;DatabaseName=Playground;InstanceName=SQL2016";
+    private static String JDBC_URL = "jdbc:sqlserver://localhost;instanceName=SQLEXPRESS;DatabaseName=Examples";
     private static String USERNAME = "client";
     private static String PASSWORD = "client";
     private static String TABLE_NAME = "dbo.SqlBulkInsertExample";
